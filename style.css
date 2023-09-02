@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+body {
+  max-height: 100vh;
+  background-color: #add8e7;
+  color: #01018d;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+  max-width: 60%;
+  margin: 30px auto;
+  text-align: center;
+}
+.container > * {
+  margin: 1rem 0;
+}
+.user_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+button {
+  border-radius: 30px;
+  border: none;
+  padding: 1rem 1.75rem;
+  font-size: 1rem;
+  background-color: #01018d;
+  color: rgb(254, 215, 98);
+  font-weight: 700;
+
+  cursor: pointer;
+}
+select {
+  padding: 0.7rem 1rem;
+  cursor: pointer;
+
+  background-color: #01018d;
+  color: rgb(254, 215, 98);
+}
+input {
+  padding: 0.5rem;
+  outline: none;
+}
+#exchange_text {
+  margin: 1rem 0;
+}
+@media (max-width: 425px) {
+  select {
+    padding: 0.5rem;
+  }
+  button {
+    padding: 0.5rem;
+  }
+}
